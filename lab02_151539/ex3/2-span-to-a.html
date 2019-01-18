@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        const convert = () => {
+            const element = document.getElementById('element');
+            const text = element.innerText;
+            const anchor = document.createElement('a');
+            anchor.innerText = text;
+            element.parentNode.replaceChild(anchor, element);
+        }
+    </script>
+</head>
+<body>
+<div>
+    <span id="element">text</span>
+    <button onclick="convert()">Convert</button>
+</div>
+</body>
+</html>

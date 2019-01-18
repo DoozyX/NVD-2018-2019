@@ -1,0 +1,55 @@
+body {
+  background: #EBAD99;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.first {
+  font: Helvetica, sans-serif;
+}
+
+.second {
+  font: "Times New Roman", Times, serif;
+}
+
+.containerOne {
+  height: 20em;
+  background-color: lightgreen;
+  position: relative;
+}
+.containerOne .left {
+  position: absolute;
+  left: 10em;
+  top: 5em;
+}
+.containerOne .right {
+  position: absolute;
+  right: 10em;
+  top: 5em;
+}
+
+.boxes, .containerTwo .boxTwo, .containerTwo .boxOne {
+  width: 150px;
+  height: 50px;
+  border: solid 2px;
+  text-align: center;
+}
+
+.containerTwo {
+  position: absolute;
+  left: 30em;
+  top: 30em;
+  z-index: 1000;
+}
+.containerTwo .boxOne {
+  border-color: red;
+}
+.containerTwo .boxTwo {
+  border-color: blue;
+}
+
+/*# sourceMappingURL=styleFancyBeginning.css.map */
